@@ -1,0 +1,11 @@
+.cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.test {
+  margin: 0;
+  background: #F5F5F5;
+}

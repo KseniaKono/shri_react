@@ -1,0 +1,144 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./components/buttons/buttonsstyle.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.buttonsstyle_container__1MPxs{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items:center;
+
+    box-sizing: border-box;
+
+}
+
+.buttonsstyle_button__289sy{
+    width: 20px;
+    height: 20px;
+
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+
+.buttonsstyle_digit__JbFjE{
+    font-family: 'Libre Franklin', sans-serif;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* Text/primary */
+    color: #1B1F23;
+}
+
+.buttonsstyle_active__onsgl{
+    background: #FF5500;
+    cursor: pointer;
+}
+
+.buttonsstyle_disabled__qo6_Y{
+    background: #FFA375;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./components/films/filmdet/detailstyle.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.detailstyle_container__4ATa3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 32px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 24px 32px;
+}
+
+.detailstyle_poster__DiFKh{
+    width: 400px;
+    height: 500px;
+
+    border-radius: 8px;
+    flex-grow: 0;
+}
+
+.detailstyle_title_container__a5FiH{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.detailstyle_font__jNarf{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #1B1F23; 
+}
+
+.detailstyle_main_title__WqQuc{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.detailstyle_info__rMy0N{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.detailstyle_section__H9Soz{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.detailstyle_description_title__OHcbY{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.detailstyle_description_text__9k0HY{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.detailstyle_title__0wGW1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.detailstyle_text___wuDC{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.detailstyle_person_icon__5LyKn{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 10px;
+    line-height: 100px;
+}
+
+.detailstyle_rate__7I4__{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.detailstyle_comment_info__8c3Vh{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

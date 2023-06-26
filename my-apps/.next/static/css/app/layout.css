@@ -1,0 +1,116 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.test {
+  margin: 0;
+  background: #F5F5F5;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./components/footer/stylefooter.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.stylefooter_footer__Nh5WJ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background: #333333;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top:auto;
+    }
+    
+    .stylefooter_titel__CQMIM {
+      margin: 0;
+      height: 23px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./components/header/styleheader.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.styleheader_header__TBcai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background: #333333;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    }
+
+    
+    
+    .styleheader_test__9PmS2 {
+      margin: 0;
+      background: #F5F5F5;
+    }
+    
+    .styleheader_biletopoisk__B3zYu {
+    margin: 0;
+    width: 241px;
+    height: 36px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+    
+    .styleheader_icon__xVsKe {
+      margin: 0 2;
+    }
+    
+    .styleheader_counter__cdNKw{
+      width: 20px;
+      height: 20px;
+      border-radius: 8px;
+      background: #FF5500;
+      
+      font-size: 14px;
+      font-family: 'Roboto';
+      font-weight: 600;
+      line-height: 20px;
+      font-style: normal;
+      padding: 4px;
+    
+      text-align: center;
+    
+      color: #FFFFFF;
+    }
+    
+    .styleheader_icon_contain__IhMt1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }

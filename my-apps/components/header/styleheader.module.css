@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background: #333333;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    }
+
+    
+    
+    .test {
+      margin: 0;
+      background: #F5F5F5;
+    }
+    
+    .biletopoisk {
+    margin: 0;
+    width: 241px;
+    height: 36px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+    
+    .icon {
+      margin: 0 2;
+    }
+    
+    .counter{
+      width: 20px;
+      height: 20px;
+      border-radius: 8px;
+      background: #FF5500;
+      
+      font-size: 14px;
+      font-family: 'Roboto';
+      font-weight: 600;
+      line-height: 20px;
+      font-style: normal;
+      padding: 4px;
+    
+      text-align: center;
+    
+      color: #FFFFFF;
+    }
+    
+    .icon_contain{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
