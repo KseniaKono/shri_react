@@ -7,10 +7,10 @@
     left: 0;
     box-sizing: border-box;
     justify-content: space-between;
-    background: #333333;
     height: 60px;
     position: sticky;
     margin-top:auto;
+    background: #333333;
     }
     
     .titel {

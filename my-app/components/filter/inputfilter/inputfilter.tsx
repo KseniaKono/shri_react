@@ -1,21 +1,22 @@
-"use client"
+import React, { FunctionComponent, FormEvent } from "react";
 
-import { FunctionComponent } from "react";
+import style from "./inputstyle.module.css";
 
-import style from "./inputstyle.module.css"
-
-interface Props {inputHandler: (event: React.FormEvent<HTMLInputElement>) => void}
-
-export const InputFilter: FunctionComponent<Props> = ({inputHandler}) => {
-
-    const temp = (event: React.FormEvent<HTMLSelectElement>) =>{
-        console.log(event.currentTarget.value);
-    }
-
-    return (
-        <form onSubmit={(event) => event.preventDefault()} className={style.container}>
-            <label htmlFor="input" className={style.filter_name}>Название</label>
-            <input type="text" id="input" className={style.input} placeholder="Введите название" onChange={inputHandler}/>
-        </form>
-    )
+interface InputFilterProps {
+  inputHandler: (event: FormEvent<HTMLInputElement>) => void;
 }
+
+export const InputFilter: FunctionComponent<InputFilterProps> = ({ inputHandler }) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className={style.container}>
+      <label htmlFor="input" className={style.filtername}>
+        Название
+      </label>
+      <input type="text" id="input" className={style.input} placeholder="Введите название" onChange={inputHandler} />
+    </form>
+  );
+};

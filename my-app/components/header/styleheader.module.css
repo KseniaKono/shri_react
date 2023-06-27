@@ -7,15 +7,13 @@
     left: 0;
     box-sizing: border-box;
     justify-content: space-between;
-    background: #333333;
     height: 60px;
     position: sticky;
     top: 0;
     z-index: 999;
+    background: #333333;
     }
 
-    
-    
     .test {
       margin: 0;
       background: #F5F5F5;
@@ -25,7 +23,6 @@
     margin: 0;
     width: 241px;
     height: 36px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -44,16 +41,13 @@
       height: 20px;
       border-radius: 8px;
       background: #FF5500;
-      
       font-size: 14px;
       font-family: 'Roboto';
       font-weight: 600;
       line-height: 20px;
       font-style: normal;
       padding: 4px;
-    
       text-align: center;
-    
       color: #FFFFFF;
     }
     

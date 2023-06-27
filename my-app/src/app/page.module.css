@@ -2,21 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px;
-    margin: 24px 32px;
     box-sizing: border-box;
     position: fixed;
+    padding: 24px;
+    margin: 24px 32px;
     top: 60px; 
     bottom: 25px;
     overflow-y: auto;
     gap: 16px;
     flex: auto;
-
     margin-bottom: 86px;
     width: 23%;
-
-    background: #FFFFFF;
     border-radius: 8px;
+    background: #FFFFFF;
 }
 
 .title{
@@ -25,8 +23,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-
-    /* Text/primary */
     color: #1B1F23;
 }
 
@@ -34,7 +30,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
     box-sizing: border-box;
-    width:100%
+    gap: 16px;
 }

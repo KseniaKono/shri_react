@@ -5,9 +5,7 @@ import { FunctionComponent } from "react";
 import style from "./styleheader.module.css"
 import { Korzina } from "../icons/korzina";
 import Link from "next/link";
-
 import { useSelector } from "react-redux"
-
 import { selectTotal } from "../../redux/tickets/selector"
 
 export const Header: FunctionComponent = () => {

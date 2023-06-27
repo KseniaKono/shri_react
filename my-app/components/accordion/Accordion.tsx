@@ -17,7 +17,7 @@ export const Accordion: FunctionComponent<Props> = ({children, title}) => {
         <div className={style.box} onClick={switchAc}>
             <div className={style.inbox}>
                 <div className={style.title}>{title}</div>
-                <Arrow height="32" width="32" color="black" isRoate={isActive}/>
+                <Arrow height="32" width="32" color="black" isRotate={isActive}/>
             </div>
             {isActive && <div className={style.text}>{children}</div>}
         </div>

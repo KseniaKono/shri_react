@@ -1,0 +1,67 @@
+.placeholder{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    outline: none;
+    border-radius: 8px;
+    flex-grow: 1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 16px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.activeplacehold{
+    color: #1B1F23;
+    border: 1px solid #FF5500;
+}
+
+.disabledplacehold{
+    color: #999FA6;
+    border: 1px solid #E1E3E6;
+}
+
+.filtername{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    color: #1B1F23;
+}
+
+.popuptext{
+    font-family: 'Roboto';
+    font-style: normal;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #1B1F23;
+}
+
+.continaer{
+    width: 100%;
+}
+
+.popup{
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 8px;
+    position: fixed;
+    z-index: 1;
+    width: 270px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 22px -4px rgba(27, 31, 35, 0.12);
+}
